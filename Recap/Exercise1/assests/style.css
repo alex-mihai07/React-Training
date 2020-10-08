@@ -1,0 +1,22 @@
+.container{
+    position: absolute;
+    left:50%;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.mainCounter{
+    text-align: center;
+    font-size: 22px;
+}
+
+.container ul li{
+    font-size: 20px;
+}
+
+.buttonsContainer button{
+    margin:0 5px;
+}
+
