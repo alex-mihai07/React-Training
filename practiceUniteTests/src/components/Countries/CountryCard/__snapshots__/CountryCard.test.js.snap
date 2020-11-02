@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country cards component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <img
+      alt="Mock name"
+      class="cardImg"
+      src="https://restcountries.eu/data/ala.svg"
+    />
+    <strong
+      class="countryName"
+    >
+      Mock name
+    </strong>
+    <div
+      class="details"
+    >
+      <div>
+        <strong>
+          Population:
+        </strong>
+         100
+      </div>
+      <div>
+        <strong>
+          Region:
+        </strong>
+         Mock region
+      </div>
+      <div>
+        <strong>
+          Capital:
+        </strong>
+         Mock capital
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

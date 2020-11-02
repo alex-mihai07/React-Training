@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countries component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="filters"
+    >
+      <input
+        data-testid="countries-search-query"
+        placeholder="Search for a country..."
+        type="text"
+        value=""
+      />
+      <select
+        class="selectFilter"
+        name="region"
+        placeholder="Filter by region"
+      >
+        <option
+          value=""
+        >
+          Filter by region
+        </option>
+        <option
+          value="africa"
+        >
+          Africa
+        </option>
+        <option
+          value="americas"
+        >
+          America
+        </option>
+        <option
+          value="asia"
+        >
+          Asia
+        </option>
+        <option
+          value="europe"
+        >
+          Europe
+        </option>
+        <option
+          value="oceania"
+        >
+          Oceania
+        </option>
+      </select>
+    </div>
+    <div
+      class="results"
+    />
+  </div>
+</DocumentFragment>
+`;
