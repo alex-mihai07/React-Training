@@ -1,0 +1,35 @@
+.coursesList{
+    width: 400px;
+    margin:0 auto;
+}
+
+.coursesList li{
+    text-align: left;
+    list-style-type: none;
+    border: 2px solid cornflowerblue;
+    padding:5px;
+    margin:5px 0;
+    border-radius: 5px;
+}
+
+.h1{
+    color:cornflowerblue;
+}
+
+.form{
+    display: inline;
+}
+
+.buttonsGroup{
+    display: inline;
+}
+
+.buttonsGroup button{
+    background: cornflowerblue;
+    color:white;
+    border-color: cornflowerblue;
+    border:0;
+    margin:4px;
+    padding:6px;
+    border-radius: 5px;
+}
