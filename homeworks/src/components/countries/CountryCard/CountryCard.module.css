@@ -1,0 +1,21 @@
+.box{
+    width: 240px;
+    height: 360px;
+
+    -webkit-box-shadow: 1px 1px 5px 7px rgba(179,177,179,0.11);
+    -moz-box-shadow: 1px 1px 5px 7px rgba(179,177,179,0.11);
+    box-shadow: 1px 1px 5px 7px rgba(179,177,179,0.11);
+    border-radius: 3px;
+    border:2px grey;
+    float: left;
+    margin: 30px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+img{
+    width: 240px;
+    height: 130px;
+}

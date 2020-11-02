@@ -12,6 +12,9 @@ const Navigation = () => {
                 <li>
                     <NavLink  to={`/homework3`} activeStyles={styles.active}>Homework 3</NavLink >
                 </li>
+                <li>
+                    <NavLink  to={`/homework5`} activeStyles={styles.active}>Homework 5</NavLink >
+                </li>
             </ul>
         </nav>
     )

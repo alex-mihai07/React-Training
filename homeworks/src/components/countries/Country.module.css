@@ -1,0 +1,60 @@
+.body{
+    background: #FAFAFA;
+    width: 100%;
+    height: 100%;
+}
+
+
+.inputs input[type='text'],
+.inputs select
+{
+    padding:15px 20px;
+    width: 200px;
+    -webkit-box-shadow: 1px 1px 5px 7px rgba(179,177,179,0.11);
+    -moz-box-shadow: 1px 1px 5px 7px rgba(179,177,179,0.11);
+    box-shadow: 1px 1px 5px 7px rgba(179,177,179,0.11);
+    border-radius: 3px;
+    border:2px grey;
+}
+
+.inputs input[type='text'] :focus {
+    border: none;
+}
+
+.left{
+    float: left
+}
+
+.right{
+    float: right
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid grey; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin:0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.error{
+    color:red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper{
+    width: 90%;
+    margin:0 auto;
+}
+
+.results{
+    float:left
+}
